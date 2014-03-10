@@ -1,0 +1,9 @@
+node_modules
+prod
+tmp
+.sass-cache
+.DS_Store
+heroku
+bower_components
+designs
+dist

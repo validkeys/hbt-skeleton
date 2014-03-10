@@ -1,0 +1,10 @@
+{
+  "name": "Pressly.com",
+  "version": "3.0.0",
+  "dependencies": {
+    "jquery": null,
+    "animate.css": "git@github.com:daneden/animate.css.git",
+    "underscore": "1.6.0",
+    "fastclick": "~1.0.0"
+  }
+}

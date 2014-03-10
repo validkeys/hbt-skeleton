@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> common_head_tag }}
+    <title>{{ error404.meta.title }}</title>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    {{> common_top_nav }}
+    <div class="current-page-wrapper">
+
+        <section class="full-page cover-all f3f4f5-bg top-padding section-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                {{> common_girder}}
+                <div class="col-md-8">
+
+                  <h1 class="page-heading">The page you were looking for could not be found.</h1>
+
+                  <h3>Please use the menu at the top of this page to navigate the site.</h3>
+
+                </div>
+                {{> common_girder}}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="clear"></div>
+    </div>
+</body>
+
+{{> tracking error404 }}
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "development": {
+    "dashboard":"http://localhost:9000",
+    "tracking": {
+      "ga":"UA-46265126-1",
+      "mixpanel":"62f1ec39cea85d0e5bec7138e6822d6f"
+    }
+  },
+  "production": {
+    "dashboard":"https://my.pressly.com",
+    "tracking": {
+      "ga":"UA-8069336-7",
+      "mixpanel":"662298df6c7ca1447268ac594aa22004"
+    }
+  }
+}
