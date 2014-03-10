@@ -1,0 +1,10 @@
+{
+  "site":{
+    "name":"Skeleton"
+  },
+  "error404":{
+    "meta": {
+      "title": "Skeleton 404"
+    }
+  }
+}
